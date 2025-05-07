@@ -46,10 +46,10 @@ setup(
     packages=find_packages(),
     python_requires='>=3.6',
     install_requires=[
-        'dask[complete]==2021.7.1',
-        'distributed==2021.7.1',
+        'dask[complete]==2024.12.1',
+        'distributed==2024.12.1',
         'dask-mpi==2021.11.0',
-        'bokeh==2.4.3',
+        'bokeh==3.1.0',
         'pyarrow',
         'mpi4py',
         'transformers==4.16.2',
